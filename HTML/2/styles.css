@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+body {
+    background-image: file("../1/boba_picture.jpeg");
+}
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    text-align: center;
+    width: 50%;
+}
