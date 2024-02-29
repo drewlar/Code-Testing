@@ -1,31 +1,59 @@
 <!DOCTYPE html> 
-<html>
+<html lang="sp">
+  <head>
+    <meta charset="utf-32">
+    This is the header hi!
+    <title>Main Page</title>
+  </head>
   <body>
     <main>
-    <h1>This is my header</h1>
-    <p>This is a <a href="./TestFile.html">test</a></p> 
-    <!-- This is a picture of a fractal-->
-    <img 
-      src="./Fractal.png"
-      alt="Fractal Picture"
-    >
-    <a href="./newLink.html"
-       target="_blank">
-      This is a new file
-    </a>
+      <h1>This is my header</h1>
+        <p>This is a <a href="./TestFile.html">test</a></p> 
+      <!-- This is a picture of a fractal-->
+        <img src="./Fractal.png" alt="Fractal Picture">
+        <a href="./newLink.html"target="_blank">This is a new file </a>
     </main>
     <section>
       <h2>Section 1</h2>
-      <h3>Subheading of Section 1</h3>
-      <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-      </ul>
-      <figure>
-        <img src="./boba_picture.jpeg">
-        <figcaption>This is a picture of boba</figcaption>
-      </figure>
+        <h3>Subheading of Section 1</h3>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+        <figure>
+          <img src="./boba_picture.jpeg">
+          <figcaption>This is a <em>picture</em> of boba</figcaption>
+        </figure>
+        <h3>This is a ordered list</h3>
+          <ol>
+            <li><strong>Item</strong>1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
     </section> 
+    <section>
+      <h2>Data</h2>
+      <form action="./formdata.txt">
+        <fieldset>
+          <legend>User Data</legend>
+          Username: <input required type="text" name="Username" placeholder="Start Typing">
+          Test <input type="button" name="Yes">
+        </fieldset>
+        <fieldset>
+          <legend>Tracking</legend>
+          <label><input type="radio" id="ON" value="ON" name="On/Off">On</label>
+          <label><input type="radio" id="OFF" value="OFF" name="On/Off">Off</label>
+        </fieldset>
+        <fieldset>
+          <legend>Select all that apply</legend>
+          <input type="checkbox"> Check this box
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
   </body>
+  <footer>
+    <p>This is my footer goodbye!</p>
+  </footer>
 </html>
